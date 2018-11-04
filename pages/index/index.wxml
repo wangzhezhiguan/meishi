@@ -1,0 +1,9 @@
+<!--index.wxml以css样式的大小为例100*100,对应的物理像素-->
+<view class="indexContain">
+  <image class="avti" src='{{userInfo.avatarUrl}}'></image>
+  <button bindgetuserinfo="TogetUserInfo" style='display:{{isShow?"block":"none"}}' open-type="getUserInfo">登陆获取用户信息</button>
+  <text class="username">{{userInfo.nickName}}</text>
+  <view catchtap='clickHandle' class="goStart">
+  <text >开启小程序之旅</text>
+  </view>
+</view>

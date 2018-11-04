@@ -1,0 +1,33 @@
+/* pages/movice/movice.wxss */
+.movice_Class {
+  display: flex;
+  padding: 20rpx;
+}
+.movice_Image {
+  width: 128rpx;
+  height: 128rpx;
+}
+.movice_detail{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  width: 70%
+}
+.movice_name {
+  font-size: 32rpx;
+  color: #000;
+}
+.movice_year {
+  font-size: 28rpx;
+  color: #666;
+  margin: 8rpx 0em;
+}
+.movice_director {
+  font-size: 30rpx;
+  color:#333
+}
+.movice_rating {
+  font-size: 40rpx;
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+<!--pages/list/list.wxml-->
+<import src="/pages/template/list-template.wxml"/>
+<view>
+<swiper catchtap='courseToPage' indicator-dots indicator-color='yellowgreen' indicator-active-color='pink'>
+<swiper-item>
+<image data-index='4' src='/images/index/4.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image data-index='5'src='/images/index/5.jpg'></image>
+</swiper-item>
+<swiper-item>
+<image data-index='6'src='/images/index/6.jpg'></image>
+</swiper-item>
+</swiper>
+<block wx:for='{{listArray}}' wx:key='{{index}}'>
+<view catchtap='clickTo' data-index='{{index}}'>
+<template is="sztemplate" data="{{...item}}"/>
+</view>
+</block>
+</view>
+

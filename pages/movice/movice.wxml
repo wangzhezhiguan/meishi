@@ -1,0 +1,12 @@
+<!--pages/movice/movice.wxml-->
+<navigator url='/pages/moviedetail/moviedetail?index={{index}}' wx:for="{{moviceArray}}" wx:key="index">
+    <view class="movice_Class">
+        <image class="movice_Image" src="{{item.images.large}}"></image>
+            <view class="movice_detail">
+                <text class="movice_name"> {{item.original_title}}</text>
+                <text class="movice_year"> 年份:{{item.year}}</text>
+                <text class="movice_director"> 导演:{{item.directors[0].name}}</text>
+            </view>
+        <text class="movice_rating">{{item.rating.average}}</text>
+    </view>
+</navigator>

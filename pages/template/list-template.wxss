@@ -1,0 +1,44 @@
+/* pages/template/list-template.wxss */
+.navClass {
+display: flex;
+flex-direction: column;
+border-top: 1rpx solid #eee;
+border-bottom:1rpx solid #eee;
+margin: 10rpx;
+}
+.nav_datClass {
+  padding: 10rpx;
+}
+.nav_datClass image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.nav_datClass text {
+  font-size: 30rpx;
+}
+.complany {
+  margin-left: 10rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 10rpx;
+}
+.ImageClass {
+  width: 100%;
+  height: 460rpx;
+}
+.contentClass {
+  font-size: 32rpx;
+  text-indent: 32rpx;
+}
+.collectionClass image {
+ width: 32rpx;
+ height: 32rpx;
+ vertical-align: middle;
+ margin-right: 10rpx;
+}
+.collectionClass text {
+  font-size: 28rpx;
+  margin-left: 10rpx;
+}

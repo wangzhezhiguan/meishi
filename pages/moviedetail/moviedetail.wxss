@@ -1,0 +1,25 @@
+/* pages/moviedetail/moviedetail.wxss */
+.movice_contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movice_image {
+  width: 70%;
+  height: 700rpx;
+  margin: 20rpx 0;
+}
+.movice_name {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.movice_detail {
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+}
+.buttonClass {
+  width: 70%;
+  height :80rpx;
+  background:green;
+}

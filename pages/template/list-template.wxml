@@ -1,0 +1,18 @@
+<!--pages/template/list-template.wxml-->
+<template name="sztemplate">
+<view class="navClass">
+<view class="nav_datClass">
+<image src="{{naveimage}}"></image>
+<text>{{naveText}}</text>
+</view>
+<text class="complany">{{companyText}}</text>
+<image class="ImageClass" src='{{conentImage}}'></image>
+<text class="contentClass">{{conentText}}</text>
+<view class="collectionClass">
+<image src='{{detail_image1}}'></image>
+<text>{{detail_Text1}}</text>
+<image src='{{detail_image2}}'></image>
+<text>{{detail_Text2}}</text>
+</view>
+</view>
+</template>
